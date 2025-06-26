@@ -1,0 +1,63 @@
+.main-content {
+  margin-left: 220px; /* Shift right to avoid overlap */
+  padding: 2rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+.chatbox-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 1000;
+  font-size: 0.9rem;
+}
+
+.chatbox-header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.chatbox-body {
+  padding: 10px;
+}
+
+.chatbox-body input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.profile-name {
+  font-size: 1rem;
+  color: #333;
+}
+
+.profile-role {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+.navbar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #343a40;
+}
+.search-bar-wrapper {
+  border-bottom: 1px solid #dee2e6;
+  
+}
+
+.search-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+

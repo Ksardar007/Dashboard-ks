@@ -1,0 +1,185 @@
+/* src/pages/Dashboard.css */
+
+/* .dashboard-container {
+  padding: 2rem;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+} */
+.dashboard-container {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  min-height: 100vh;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+/* .dashboard-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+} */
+.dashboard-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* .card-title {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 1.75rem;
+  color: #007bff;
+} */
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  color: #3498db;
+}
+
+
+/* .chart-card {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  width: 100%;
+  overflow-x: auto;
+  min-height: 300px;
+} */
+
+.chart-card {
+  background-color: #34495e;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.chart-container {
+  height: 300px;
+}
+.card:hover,
+.chart-card:hover,
+.availability-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ApexCharts styling fix */
+.apexcharts-canvas {
+  margin: 0 auto;
+  max-width: 100% !important;
+}
+
+.apexcharts-svg {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.card .apexcharts-canvas {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .chart-container {
+    min-height: 250px;
+  }
+}
+/* Employee Availability Card */
+/* .availability-card {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.availability-item {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+} */
+
+.availability-card {
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.availability-item {
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.availability-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* .availability-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+ .availability-count {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Color-coded status boxes */
+/* .availability-item.present {
+  background-color: #28a745; /* Green */
+/* }
+.availability-item.late {
+  background-color: #ffc107; /* Yellow */
+  /* color: #212529;
+}
+.availability-item.absent {
+  background-color: #dc3545; /* Red */
+/* }
+.availability-item.leave {
+  background-color: #17a2b8; /* Blue */
+/* } */ 
+.availability-item.present {
+  background-color: #27ae60;
+}
+
+.availability-item.late {
+  background-color: #f39c12;
+}
+
+.availability-item.absent {
+  background-color: #e74c3c;
+}
+
+.availability-item.leave {
+  background-color: #8e44ad;
+}
